@@ -6,3 +6,8 @@ header{
 header li{
     display:inline;
 }
+
+main{
+    display:flex;
+    justify-content: space-around;
+}
