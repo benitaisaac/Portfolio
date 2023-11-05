@@ -1,6 +1,6 @@
 header{
     display:flex;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 header li{
@@ -9,5 +9,37 @@ header li{
 
 main{
     display:flex;
-    justify-content: space-around;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    height: 100vh;
+}
+
+aside{
+    flex: 1 1 0;
+    background-color: blueviolet;
+    
+}
+section{
+    flex: 2 1 0;
+    background-color: aqua;
+}
+
+
+.about-me img{
+    width: 300px; 
+    height: 200px;
+}
+
+section{
+    display:grid;
+}
+
+.project-1, .project-2, .project-3, .project-4,
+.project-5{
+    outline: 1px solid black;
+}
+
+footer{
+    text-align: center;
 }
