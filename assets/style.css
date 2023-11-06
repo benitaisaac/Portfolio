@@ -26,26 +26,28 @@ main{
 aside{
     flex: 1 1 0;
     background-color: blueviolet;
-    
-}
-section{
-    flex: 2 1 0;
-    background-color: aqua;
 }
 
+.about-me h2 {
+    text-align: center;
+}
 
 .about-me img{
     width: 300px; 
     height: 200px;
 }
 
+.benita_img{
+    text-align: center;
+}
+
 section{
+    flex: 2 1 0;
+    background-color: aqua;
     display:grid;
     grid-gap: 10px;
     grid-template-columns: repeat(6, 1fr);
-
 }
-
 .project-1{
     grid-column-start: 1;
     grid-column-end: 7;
