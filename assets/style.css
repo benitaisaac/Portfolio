@@ -49,6 +49,16 @@ section{
 .project-1{
     grid-column-start: 1;
     grid-column-end: 7;
+    text-align: center;
+}
+
+.project-1 img{
+    height: 300px;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+
 }
 
 .project-2, .project-4{
