@@ -1,3 +1,7 @@
+body{
+    height: 100%vh;
+}
+
 header{
     display:flex;
     justify-content:space-between;
@@ -33,6 +37,24 @@ section{
 
 section{
     display:grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+.project-1{
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+.project-2, .project-4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.project-3, .project-5{
+    grid-column-start:4;
+    grid-column-end:7;
 }
 
 .project-1, .project-2, .project-3, .project-4,
