@@ -11,6 +11,10 @@ header li{
     display:inline;
 }
 
+nav li::before{
+    content: '🔹 '
+}
+
 main{
     display:flex;
     width: 100%;
