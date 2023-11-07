@@ -4,7 +4,7 @@ body{
 
 header{
     display:flex;
-    justify-content:space-between;
+    justify-content: space-around;
 }
 
 header li{
@@ -38,6 +38,10 @@ aside{
 }
 
 .benita_img{
+    text-align: center;
+}
+
+aside .contact-me{
     text-align: center;
 }
 
