@@ -52,6 +52,12 @@ section{
     grid-gap: 10px;
     grid-template-columns: repeat(6, 1fr);
 }
+
+.projects{
+    grid-column-start:1;
+    grid-column-end: 7;
+    text-align: center;
+}
 .project-1{
     grid-column-start: 1;
     grid-column-end: 7;
