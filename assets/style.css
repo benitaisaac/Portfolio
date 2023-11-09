@@ -40,6 +40,7 @@ main{
 
 aside{
     flex: 1 1 0;
+    padding: 15px;
 }
 
 .about-me{
@@ -118,6 +119,14 @@ footer{
     padding: 5px;
 }
 
-@media screen and (max-width:1024px){
-    
+@media screen and (max-width:1090px){
+.project-2 img, .project-3 img,
+.project-4 img, .project-5 img{
+height: 150px;
+width: 250px;
+}
+}
+
+@media screen and (max-width:480px){
+
 }
