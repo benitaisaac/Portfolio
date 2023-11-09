@@ -1,7 +1,7 @@
 body{
     height: 100%;
-    padding: 0;
-    margin: 0;
+    padding: 5px;
+    margin: 5px;
 }
 
 header{
@@ -32,14 +32,20 @@ nav li::after{
 
 main{
     display:flex;
-    width: 100%;
-    margin: 5px;
+    /* width: 100%; */
+    /* margin: 5px;
     padding: 5px;
-    height: 100vh;
+    height: 100vh; */
 }
 
 aside{
     flex: 1 1 0;
+}
+
+.about-me{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-me h2 {
@@ -55,9 +61,9 @@ aside{
     text-align: center;
 }
 
-aside .contact-me{
+/* .contact-me{
     text-align: center;
-}
+} */
 
 section{
     flex: 2 1 0;
@@ -70,6 +76,10 @@ section{
     grid-column-start:1;
     grid-column-end: 7;
     text-align: center;
+}
+
+.project-1 a{
+    text-decoration: none;
 }
 .project-1{
     grid-column-start: 1;
@@ -94,10 +104,6 @@ section{
 .project-3, .project-5{
     grid-column-start:4;
     grid-column-end:7;
-}
-
-.project-1, .project-2, .project-3, .project-4,
-.project-5{
 }
 
 footer{
