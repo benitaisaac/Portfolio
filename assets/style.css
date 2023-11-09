@@ -25,7 +25,7 @@ main{
 
 aside{
     flex: 1 1 0;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .about-me h2 {
@@ -47,7 +47,7 @@ aside .contact-me{
 
 section{
     flex: 2 1 0;
-    background-color: aqua;
+    /* background-color: aqua; */
     display:grid;
     grid-gap: 10px;
     grid-template-columns: repeat(6, 1fr);
@@ -85,7 +85,7 @@ section{
 
 .project-1, .project-2, .project-3, .project-4,
 .project-5{
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
 }
 
 footer{
