@@ -10,12 +10,24 @@ header{
     padding: 10px;
 }
 
+header a{
+    text-decoration: none;
+}
+
+header ul{
+    font-size: 20px;
+}
+
 header li{
     display:inline;
 }
 
 nav li::before{
-    content: '🔹 '
+    content: '🔘 '
+}
+
+nav li::after{
+    content:" 🔘"
 }
 
 main{
@@ -86,7 +98,6 @@ section{
 
 .project-1, .project-2, .project-3, .project-4,
 .project-5{
-    /* outline: 1px solid black; */
 }
 
 footer{
