@@ -131,6 +131,15 @@ footer{
     padding: 5px;
 }
 
+footer li{
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+footer ul{
+    padding-left: 0;
+}
+
 @media screen and (max-width:705px){
     main{
         display:block;
