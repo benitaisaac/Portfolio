@@ -2,12 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This is a website that displays all the projects that I am currently working on. The website is live, and will be updated often with the most recent projects that I've worked on. 
 
 
 ## Installation
@@ -19,7 +14,7 @@ Use the navigation bar for quick navigation of the website. To view the Horiseon
 
 Included below is a screenshot of the website:
     
-    ![A picture of Benita's portfolio](assets/images/screenshot.png)
+    ![A picture of Benita's portfolio](./assets/Images/screenshot.png)
 
 
 ## Credits
