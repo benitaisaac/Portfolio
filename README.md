@@ -14,7 +14,7 @@ Use the navigation bar for quick navigation of the website. To view the Horiseon
 
 Included below is a screenshot of the website:
     
-    ![A picture of Benita's portfolio](./assets/Images/screenshot.png)
+![A picture of Benita's portfolio](./assets/Images/screenshot.png)
 
 
 ## Credits
